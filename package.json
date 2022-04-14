@@ -8,14 +8,19 @@
 		"vscode": "^1.32.0"
 	},
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.foldMob",
+		"onCommand:extension.foldDT"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Fold the selected line"
+				"command": "extension.foldMob",
+				"title": "Fold mobile"
+			},
+			{
+				"command": "extension.foldDT",
+				"title": "Fold DT"
 			}
 		]
 	},
