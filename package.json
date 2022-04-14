@@ -1,9 +1,9 @@
 {
-	"name": "helloworld-minimal-sample",
-	"description": "Minimal HelloWorld example for VS Code",
+	"name": "fold-mob-dt",
+	"description": "Fold all mobile + DT content",
 	"version": "0.0.1",
-	"publisher": "vscode-samples",
-	"repository": "https://github.com/Microsoft/vscode-extension-samples/helloworld-minimal-sample",
+	"publisher": "calebrauxa",
+	"repository": "https://github.com/calebrauxa/showhide",
 	"engines": {
 		"vscode": "^1.32.0"
 	},
@@ -16,11 +16,11 @@
 		"commands": [
 			{
 				"command": "extension.foldMob",
-				"title": "Fold mobile"
+				"title": "📂 Fold mobile code"
 			},
 			{
 				"command": "extension.foldDT",
-				"title": "Fold DT"
+				"title": "📂 Fold desktop code"
 			}
 		]
 	},
